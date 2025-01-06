@@ -29,13 +29,13 @@ section#login{
     left: 50%;
     overflow: hidden;
 
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 260px;
     height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.450);
 
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -63,8 +63,8 @@ div#formulario p{
 }
 
 form div.campo{
-    background-color:  #f3decc;
-    border: 2px solid #f3decc;
+    background-color:  #574036;
+    border: 2px solid #574036;
     display: block;
     width: 100%;
     height: 46px;
@@ -84,14 +84,14 @@ div.campo i{
 }
 
 div.campo input{
-    background-color: #8e6959;
+    background-color: #f3decc;
     font-size: 1em;
     width: calc(100% - 45px) ;
     height: 100%;
-    transform: translateY(-10px);
     border: 0px;
     border-radius: 8px;
     padding:2px;
+    transform: translateY(-10px);
 }
 
 form input[type=submit]{
@@ -99,14 +99,14 @@ form input[type=submit]{
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #f3decc;
-    color: #574036;
+    background-color: #574036;
+    color: #f3decc;
     border: none;
     border-radius: 5px;
 }
 
 form input[type=submit]:hover{
-    background-color: #c2a58d;
+    background-color: #574036;
     cursor: pointer;
 }
 
